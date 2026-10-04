@@ -1,0 +1,18 @@
+[project]
+name = "agentic-rag-technical-docs"
+version = "0.1.0"
+description = "Agentic RAG with sufficient-context verification vs baseline RAG on a technical maintenance guide"
+readme = "README.md"
+authors = [
+    { name = "Yan Kostsov", email = "ykostsov83@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "langgraph>=1.2.12",
+    "matplotlib>=3.11.2",
+    "openai>=3.24.0",
+    "pandas>=3.0.6",
+    "pypdf>=6.19.0",
+    "python-dotenv>=1.2.4",
+]

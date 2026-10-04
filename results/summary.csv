@@ -1,0 +1,7 @@
+run,system,accuracy,over_refusal,correct_refusal,hallucination,citation_accuracy,avg_seconds,avg_llm_calls,avg_tokens
+v1,baseline,0.905,0.0,1.0,0.0,1.0,18.04,1.0,1200.4
+v1,agentic,0.762,0.048,1.0,0.0,0.955,37.517,3.733,2725.8
+v2,baseline,0.905,0.0,1.0,0.0,1.0,17.67,1.0,1195.167
+v2,agentic,0.905,0.048,1.0,0.0,1.0,30.617,3.267,2422.9
+openai,baseline,0.952,0.0,1.0,0.0,1.0,1.113,1.0,1102.733
+openai,agentic,0.905,0.0,1.0,0.0,1.0,3.387,3.3,2301.733

@@ -1,0 +1,1687 @@
+[
+  {
+    "id": "S01",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What cost savings can a preventive maintenance program provide compared with a purely reactive program?",
+    "expected_answer": "An estimated 12% to 18% on average.",
+    "answer": "Studies indicate that implementing a proper preventive maintenance program can save as much as 12% to 18% over a purely reactive maintenance program (page 51). This approach extends equipment life closer to design specifications, resulting in dollar savings compared to programs relying solely on reactive repairs (page 51). Preventive maintenance is considered cost-effective in many capital-intensive processes and can reduce potential damages associated with failure (page 53). Additionally, it offers flexibility in adjusting maintenance periodicity and increases the life cycle of components (page 53).",
+    "pages": [
+      51,
+      50,
+      51,
+      53,
+      52
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1098,
+    "output_tokens": 113,
+    "seconds": 15.2,
+    "cited_pages": [
+      51,
+      53
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S01",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What cost savings can a preventive maintenance program provide compared with a purely reactive program?",
+    "expected_answer": "An estimated 12% to 18% on average.",
+    "answer": "Preventive maintenance programs can provide estimated cost savings of 12% to 18% over a purely reactive maintenance program (page 51). These savings are achieved by extending equipment life closer to design specifications and reducing failures compared to waiting for breakdowns. While some disadvantages like labor intensity exist, the overall financial benefit helps offset costs associated with unplanned downtime and repairs found in reactive models.",
+    "pages": [
+      51,
+      50,
+      51,
+      53,
+      52
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2240,
+    "output_tokens": 131,
+    "seconds": 15.1,
+    "attempts": 1,
+    "queries": [
+      "cost savings preventive versus reactive maintenance program"
+    ],
+    "assessment_reason": "The context explicitly states that a preventive maintenance program can provide estimated cost savings of 12% to 18% over a reactive maintenance program.",
+    "cited_pages": [
+      51
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S02",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What cost savings can a properly functioning predictive maintenance program provide over a program using preventive maintenance alone?",
+    "expected_answer": "An estimated 8% to 12%.",
+    "answer": "A properly functioning predictive maintenance program can provide estimated savings of 8% to 12% over a program utilizing preventive maintenance alone (page 52). Additionally, depending on a facility's reliance on reactive maintenance and material condition, savings opportunities could exceed 30% to 40% (page 52).",
+    "pages": [
+      52,
+      53,
+      52,
+      51,
+      52
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1069,
+    "output_tokens": 67,
+    "seconds": 10.6,
+    "cited_pages": [
+      52
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S02",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What cost savings can a properly functioning predictive maintenance program provide over a program using preventive maintenance alone?",
+    "expected_answer": "An estimated 8% to 12%.",
+    "answer": "Past studies have estimated that a properly functioning predictive maintenance program can provide savings of 8% to 12% over a program utilizing preventive maintenance alone (page 52). Additionally, depending on a facility's reliance on reactive maintenance and material condition, savings opportunities could exceed 30% to 40% (page 52). The documents also note that predictive maintenance can lower the cost of operating from approximately $13/hp/yr for preventive maintenance to about $9/hp/yr (page 56) and as low as $6/hp/yr with Reliability Centered Maintenance (page 57).",
+    "pages": [
+      52,
+      52,
+      53,
+      56,
+      57
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2141,
+    "output_tokens": 182,
+    "seconds": 24.4,
+    "attempts": 1,
+    "queries": [
+      "cost savings predictive maintenance vs preventive maintenance"
+    ],
+    "assessment_reason": "The context explicitly states that a properly functioning predictive maintenance program can provide savings of 8% to 12% over a program utilizing preventive maintenance alone.",
+    "cited_pages": [
+      52,
+      56,
+      57
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S03",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "According to the survey of companies using a CMMS, what was the average payback time?",
+    "expected_answer": "14.5 months (survey of 558 companies).",
+    "answer": "According to the document, the average payback time reported by companies using a computerized maintenance management system (CMMS) is 14.5 months (page 46). This figure comes from a survey conducted by A.T. Kearney and Industry Week that tracked productivity increases and cost savings associated with CMMS implementation.",
+    "pages": [
+      46,
+      46,
+      46,
+      45,
+      47
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1139,
+    "output_tokens": 67,
+    "seconds": 11.3,
+    "cited_pages": [
+      46
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S03",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "According to the survey of companies using a CMMS, what was the average payback time?",
+    "expected_answer": "14.5 months (survey of 558 companies).",
+    "answer": "According to the survey reported on page 46, companies using a computerized maintenance management system (CMMS) experienced an average payback time of 14.5 months. This figure is listed alongside other benefits such as increased productivity and reduced downtime found in A.T. Kearney's study.",
+    "pages": [
+      46,
+      46,
+      46,
+      105,
+      45
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2151,
+    "output_tokens": 108,
+    "seconds": 16.7,
+    "attempts": 1,
+    "queries": [
+      "CMMS survey average payback period"
+    ],
+    "assessment_reason": "The context explicitly states that companies reported an average payback time of 14.5 months in a survey about CMMS usage.",
+    "cited_pages": [
+      46
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S04",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What do the letters OMETA stand for in O&M management?",
+    "expected_answer": "Operations, Maintenance, Engineering, Training, and Administration.",
+    "answer": "According to page 29 of the document, the acronym OMETA stands for five distinct functions that make up an O&M organization: Operations, Maintenance, Engineering, Training, and Administration. These elements form the core structure for a solid O&M program (page 29).",
+    "pages": [
+      29,
+      29,
+      34,
+      30,
+      35
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1069,
+    "output_tokens": 57,
+    "seconds": 10.7,
+    "cited_pages": [
+      29
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S04",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What do the letters OMETA stand for in O&M management?",
+    "expected_answer": "Operations, Maintenance, Engineering, Training, and Administration.",
+    "answer": "Based on pages 29, 120, and 29 (continuation), the letters OMETA stand for Operations, Maintenance, Engineering, Training, and Administration. These five distinct functions form the basis of a solid O&M organization according to the provided guide. The text explicitly lists these elements as part of the \"OMETA concept\" used to bind the parts of an O&M program into a cohesive entity. (page 29) (page 120) (page 29)",
+    "pages": [
+      29,
+      120,
+      29,
+      59,
+      34
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2231,
+    "output_tokens": 150,
+    "seconds": 25.2,
+    "attempts": 1,
+    "queries": [
+      "Ovarety Management Environment Technology Architecture"
+    ],
+    "assessment_reason": "The context explicitly lists the five functions that OMETA stands for as Operations, Maintenance, Engineering, Training, and Administration.",
+    "cited_pages": [
+      29,
+      120
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S05",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "In what frequency range do the airborne ultrasounds detected by non-contact ultrasonic detectors fall?",
+    "expected_answer": "20 to 100 kHz.",
+    "answer": "According to the document, the frequency spectrums of airborne ultrasounds detected by non-contact ultrasonic detectors fall within a range of 20 to 100 kHz. This is higher than what can normally be heard by humans and exceeds the threshold of sound waves defined as ultrasound (above 20 kHz) on page 77.",
+    "pages": [
+      77,
+      77,
+      77,
+      79,
+      81
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1172,
+    "output_tokens": 71,
+    "seconds": 13.3,
+    "cited_pages": [
+      77
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S05",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "In what frequency range do the airborne ultrasounds detected by non-contact ultrasonic detectors fall?",
+    "expected_answer": "20 to 100 kHz.",
+    "answer": "According to page 77, the frequency spectrums of airborne ultrasounds detected by non-contact ultrasonic detectors fall within a range of 20 to 100 kHz. (page 77)",
+    "pages": [
+      77,
+      77,
+      111,
+      77,
+      82
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2318,
+    "output_tokens": 103,
+    "seconds": 26.1,
+    "attempts": 1,
+    "queries": [
+      "20 kHz to 150 kHz"
+    ],
+    "assessment_reason": "The context explicitly states that the frequency spectrums of the airborne ultrasounds detected by non-contact ultrasonic detectors fall within a range of 20 to 100 kHz.",
+    "cited_pages": [
+      77
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S06",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "How much does an infrared camera with full functionality cost?",
+    "expected_answer": "From $18,000 to $65,000.",
+    "answer": "An infrared camera with full functionality costs from $18,000 to $65,000 (page 66). This price range reflects the hardware alongside other associated program costs mentioned in the document. The text distinguishes this tier from simpler devices like spot radiometers or IR imagers without radiometric capability.",
+    "pages": [
+      66,
+      67,
+      61,
+      60,
+      61
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1124,
+    "output_tokens": 68,
+    "seconds": 14.5,
+    "cited_pages": [
+      66
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S06",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "How much does an infrared camera with full functionality cost?",
+    "expected_answer": "From $18,000 to $65,000.",
+    "answer": "An infrared camera with full functionality can cost from $18,000 to $65,000 (page 66).",
+    "pages": [
+      66,
+      67,
+      69,
+      61,
+      60
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2483,
+    "output_tokens": 78,
+    "seconds": 27.6,
+    "attempts": 1,
+    "queries": [
+      "full functionality infrared camera industrial price list"
+    ],
+    "assessment_reason": "The context explicitly states that a camera with full functionality costs from $18,000 to $65,000.",
+    "cited_pages": [
+      66
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S07",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "Where should oil samples be taken for oil analysis?",
+    "expected_answer": "From an active, low-pressure line, ahead of any filtration devices, and from the same place each time (a permanently installed sample valve is recommended).",
+    "answer": "Samples should be taken from an active, low-pressure line ahead of any filtration devices (page 70). Additionally, samples must be taken from the same place in the system each time for consistent results and accurate trending (page 70). Using a permanently installed sample valve is highly recommended to ensure this consistency (page 70).",
+    "pages": [
+      70,
+      70,
+      73,
+      70,
+      73
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1050,
+    "output_tokens": 69,
+    "seconds": 14.1,
+    "cited_pages": [
+      70
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S07",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "Where should oil samples be taken for oil analysis?",
+    "expected_answer": "From an active, low-pressure line, ahead of any filtration devices, and from the same place each time (a permanently installed sample valve is recommended).",
+    "answer": "Oil samples should be taken from an active, low-pressure line, ahead of any filtration devices (page 70). To ensure consistent results and accurate trending, samples must be collected from the same location in the system each time, preferably using a permanently installed sample valve (page 70).",
+    "pages": [
+      70,
+      70,
+      73,
+      73,
+      70
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2138,
+    "output_tokens": 99,
+    "seconds": 25.7,
+    "attempts": 1,
+    "queries": [
+      "Oil sampling locations and procedures"
+    ],
+    "assessment_reason": "The text explicitly states that samples should be taken from an active, low-pressure line ahead of any filtration devices.",
+    "cited_pages": [
+      70
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S08",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What does the Karl Fischer test measure in oil analysis?",
+    "expected_answer": "The amount of water in the lubricant.",
+    "answer": "The Karl Fischer Test quantifies the amount of water in the lubricant (page 71). Increased water concentrations can indicate possible condensation, coolant leaks, or process leaks around the seals (page 71). Water seriously damages the lubricating properties of oil and promotes component corrosion (page 71).",
+    "pages": [
+      71,
+      70,
+      73,
+      70,
+      73
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1072,
+    "output_tokens": 64,
+    "seconds": 13.5,
+    "cited_pages": [
+      71
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S08",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What does the Karl Fischer test measure in oil analysis?",
+    "expected_answer": "The amount of water in the lubricant.",
+    "answer": "The Karl Fischer Test quantifies the amount of water in a lubricant (page 71). Water can seriously damage lubricating properties and promote component corrosion. Increased concentrations indicate possible condensation, coolant leaks, or process leaks around seals.",
+    "pages": [
+      71,
+      70,
+      72,
+      73,
+      72
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2311,
+    "output_tokens": 86,
+    "seconds": 25.6,
+    "attempts": 1,
+    "queries": [
+      "moisture content water"
+    ],
+    "assessment_reason": "The context explicitly states that the Karl Fischer Test quantifies the amount of water in the lubricant.",
+    "cited_pages": [
+      71
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S09",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What is the typical fee range of a new building commissioning provider per square foot?",
+    "expected_answer": "From $0.50/ft2 for simple buildings to $3.00/ft2 for complex buildings such as hospitals and laboratories.",
+    "answer": "The typical fee for new building commissioning ranges from $0.50 per square foot for simple buildings to $3.00 per square foot for complex buildings like hospitals and laboratories (page 99). These costs vary based on the building's use, the complexity of mechanical systems, and size (page 97).",
+    "pages": [
+      99,
+      97,
+      105,
+      99,
+      99
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1174,
+    "output_tokens": 68,
+    "seconds": 14.7,
+    "cited_pages": [
+      97,
+      99
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S09",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What is the typical fee range of a new building commissioning provider per square foot?",
+    "expected_answer": "From $0.50/ft2 for simple buildings to $3.00/ft2 for complex buildings such as hospitals and laboratories.",
+    "answer": "New building commissioning provider fees typically range from $0.50 per square foot for \"simple\" buildings to $3.00/ft2 for complex buildings like hospitals and laboratories (page 99; page 97). These costs vary based on the building's use, which determines the complexity of mechanical systems and size (page 105). The range reflects the varying demands of different facility types, with lower costs for classrooms and higher costs for specialized medical or laboratory environments.",
+    "pages": [
+      99,
+      97,
+      105,
+      99,
+      99
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2393,
+    "output_tokens": 156,
+    "seconds": 21.9,
+    "attempts": 1,
+    "queries": [
+      "new building commissioning cost per square foot"
+    ],
+    "assessment_reason": "The context explicitly states that fees for new building commissioning providers typically range from $0.50 to $3.00 per square foot based on building complexity.",
+    "cited_pages": [
+      97,
+      99,
+      105
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S10",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What are the four predominant levels of resource metering?",
+    "expected_answer": "One-time/spot measurement, run-time measurement, short-term monitoring, and long-term monitoring.",
+    "answer": "The four predominant levels of resource metering are one-time/spot measurement, run-time measurement, short-term monitoring, and long-term monitoring (page 110). These levels represent different approaches to measuring energy and resource use for operations and maintenance programs. Each level has unique characteristics, with only long-term monitoring meeting the requirements set forth in EPAct 2005 (page 110). No single monitoring approach is useful for all projects, so the choice depends on specific needs (page 110).",
+    "pages": [
+      110,
+      107,
+      113,
+      112,
+      113
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1107,
+    "output_tokens": 107,
+    "seconds": 17.0,
+    "cited_pages": [
+      110
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S10",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What are the four predominant levels of resource metering?",
+    "expected_answer": "One-time/spot measurement, run-time measurement, short-term monitoring, and long-term monitoring.",
+    "answer": "The four predominant levels of resource metering are one-time/spot measurement, run-time measurement, short-term monitoring, and long-term monitoring (page 110). Each level possesses unique characteristics, making no single approach suitable for all projects. Notably, only long-term monitoring meets the requirements set forth in EPAct 2005 (page 110).",
+    "pages": [
+      110,
+      107,
+      113,
+      112,
+      113
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2253,
+    "output_tokens": 133,
+    "seconds": 20.0,
+    "attempts": 1,
+    "queries": [
+      "predominant levels of resource metering four levels"
+    ],
+    "assessment_reason": "The context explicitly lists and defines the four predominant levels of resource metering as One-time/spot measurement, Run-time measurement, Short-term monitoring, and Long-term monitoring.",
+    "cited_pages": [
+      110
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S11",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What minimum annual savings percentage should Federal sites use when evaluating whether a meter is cost-justified?",
+    "expected_answer": "A minimum of 2 percent annual savings.",
+    "answer": "Federal sites are advised to use a minimum of 2 percent annual savings when considering meters for EPAct 2005 compliance (page 116). This figure is one of the input variables in the formula used to cost-justify an electric meter (page 116). The sample calculation on page 117 also utilizes this 2% value to determine the minimum annual electric bill required for justification. Therefore, the specific minimum percentage recommended is 2%.",
+    "pages": [
+      116,
+      117,
+      116,
+      107,
+      107
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1212,
+    "output_tokens": 98,
+    "seconds": 17.3,
+    "cited_pages": [
+      116,
+      117
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S11",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What minimum annual savings percentage should Federal sites use when evaluating whether a meter is cost-justified?",
+    "expected_answer": "A minimum of 2 percent annual savings.",
+    "answer": "Federal sites are advised to use a minimum of 2 percent annual savings when considering meters for EPAct 2005 compliance. This requirement applies to the formula used to cost-justify an electric meter (page 116). Sites should ensure their estimates reflect reasonable benefits derived from the productive use of metered data (page 116).",
+    "pages": [
+      116,
+      53,
+      117,
+      52,
+      116
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2276,
+    "output_tokens": 111,
+    "seconds": 28.1,
+    "attempts": 1,
+    "queries": [
+      "10 percent"
+    ],
+    "assessment_reason": "The context explicitly states that federal sites are advised to use a minimum of 2 percent annual savings when considering meters.",
+    "cited_pages": [
+      116
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S12",
+    "type": "simple",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "How often should machines with motors of 7.5 hp or larger be evaluated for routine lubricating oil analysis?",
+    "expected_answer": "From monthly to quarterly (hydraulic systems, except mobile systems, quarterly).",
+    "answer": "Machines with motors of 7.5 hp or larger, along with critical or high-cost machines, should be evaluated for routine lubricating oil analysis from monthly to quarterly (page 73). The specific frequency depends on the evaluation of the machine's characteristics and cost-effectiveness (page 73). This guidance is outlined in section 6.3.4 regarding system applications (page 73).",
+    "pages": [
+      73,
+      74,
+      70,
+      74,
+      70
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1061,
+    "output_tokens": 84,
+    "seconds": 16.4,
+    "cited_pages": [
+      73
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "S12",
+    "type": "simple",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "How often should machines with motors of 7.5 hp or larger be evaluated for routine lubricating oil analysis?",
+    "expected_answer": "From monthly to quarterly (hydraulic systems, except mobile systems, quarterly).",
+    "answer": "Machines with motors of 7.5 hp or larger should be evaluated for routine lubricating oil analysis on a monthly to quarterly basis (page 73). Additionally, all critical or high-cost machines should also be included in this evaluation schedule. For hydraulic systems, which are often part of these machines, the recommendation is generally a quarterly analysis unless they are mobile systems (page 73). The specific frequency for mobile hydraulic systems depends on machine size and cost-effectiveness considerations (page 73).",
+    "pages": [
+      73,
+      34,
+      74,
+      67,
+      70
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2279,
+    "output_tokens": 148,
+    "seconds": 31.9,
+    "attempts": 1,
+    "queries": [
+      "every 6 months"
+    ],
+    "assessment_reason": "The context explicitly states that machines with motors 7.5 hp or larger should be evaluated for routine lubricating oil analysis from monthly to quarterly.",
+    "cited_pages": [
+      73
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M01",
+    "type": "compound",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "How does the annual cost per horsepower of reactive maintenance compare with that of reliability centered maintenance?",
+    "expected_answer": "Reactive maintenance costs about $18/hp/yr, RCM about $6/hp/yr: RCM costs about one third, $12/hp/yr less.",
+    "answer": "Reactive maintenance costs approximately $18 per hp per year, while Reliability Centered Maintenance (RCM) operates at about $6 per hp per year (pages 53, 54, 57). Consequently, RCM is significantly more cost-effective than reactive maintenance. This cost difference reflects the shift from running equipment to failure toward utilizing predictive and preventive techniques combined with root cause analysis.",
+    "pages": [
+      57,
+      54,
+      57,
+      53,
+      51
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1052,
+    "output_tokens": 83,
+    "seconds": 15.5,
+    "cited_pages": [
+      53,
+      54,
+      57
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M01",
+    "type": "compound",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "How does the annual cost per horsepower of reactive maintenance compare with that of reliability centered maintenance?",
+    "expected_answer": "Reactive maintenance costs about $18/hp/yr, RCM about $6/hp/yr: RCM costs about one third, $12/hp/yr less.",
+    "answer": "Reactive maintenance costs approximately $18/hp/yr, while Reliability Centered Maintenance (RCM) costs about $6/hp/yr. Therefore, RCM is significantly cheaper on an annual basis per horsepower compared to reactive maintenance. RCM achieves these savings by utilizing predictive and preventive techniques alongside root cause failure analysis, whereas reactive maintenance allows machinery to run to failure before repair (page 54).",
+    "pages": [
+      57,
+      54,
+      57,
+      53,
+      51
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2150,
+    "output_tokens": 136,
+    "seconds": 20.7,
+    "attempts": 1,
+    "queries": [
+      "cost per horsepower reactive maintenance vs reliability centered maintenance comparison"
+    ],
+    "assessment_reason": "The context explicitly states the annual cost for Reactive Maintenance is $18/hp and for Reliability Centered Maintenance is $6/hp.",
+    "cited_pages": [
+      54
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M02",
+    "type": "compound",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What share of maintenance is reactive in an average facility compared with continually top-performing facilities?",
+    "expected_answer": "More than 55% in an average facility versus less than 10% in top-performing facilities.",
+    "answer": "In an average facility, more than 55% of maintenance resources and activities are reactive (page 50). In contrast, continually top-performing facilities typically have less than 10% of their maintenance activities devoted to reactive maintenance (page 53).",
+    "pages": [
+      50,
+      51,
+      50,
+      53,
+      51
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1106,
+    "output_tokens": 55,
+    "seconds": 14.5,
+    "cited_pages": [
+      50,
+      53
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M02",
+    "type": "compound",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What share of maintenance is reactive in an average facility compared with continually top-performing facilities?",
+    "expected_answer": "More than 55% in an average facility versus less than 10% in top-performing facilities.",
+    "answer": "In an average facility, more than 55% of maintenance activities are reactive (page 50). In contrast, continually top-performing facilities utilize less than 10% reactive maintenance as part of a Reliability Centered Maintenance (RCM) approach (page 53).",
+    "pages": [
+      50,
+      51,
+      53,
+      50,
+      51
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2258,
+    "output_tokens": 97,
+    "seconds": 28.1,
+    "attempts": 1,
+    "queries": [
+      "Reactive vs. continuous improvement maintenance strategy"
+    ],
+    "assessment_reason": "The context provides specific percentages for reactive maintenance in both average and top-performing facilities.",
+    "cited_pages": [
+      50,
+      53
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M03",
+    "type": "compound",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What steam trap failure rates are reported in the infrared thermography section and in the ultrasonic analysis section?",
+    "expected_answer": "Thermography section: without a good program, 15% to 60% of traps can be failed open. Ultrasound section: initial surveys in the petrochemical industry found 34% of traps had failed, mostly open.",
+    "answer": "The provided documents do not contain specific steam trap failure rates for the infrared thermography section; however, page 68 notes that \"without a good trap maintenance program, it can be expected that 15% to 60% of a facility's traps will be failed open.\" In the ultrasonic analysis sections (pages 80-81), one survey found that 34% of inspected traps had failed, while another specific survey discovered 20 out of 150 traps leaking or five steam leaks per 150 traps (page 81). Additionally, an oil refinery cited on page 68 identified that 14% of its traps were malfunctioning. For more general diagnostic signatures and failure types like \"failed open,\" references are made on pages 80-81 but no universal failure rate is given for ultrasonic diagnostics specifically beyond the survey examples.\n\n**Citations:** (page 68, page 80, page 81)",
+    "pages": [
+      80,
+      81,
+      68,
+      81,
+      80
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1270,
+    "output_tokens": 206,
+    "seconds": 29.3,
+    "cited_pages": [
+      68,
+      80,
+      81
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M03",
+    "type": "compound",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What steam trap failure rates are reported in the infrared thermography section and in the ultrasonic analysis section?",
+    "expected_answer": "Thermography section: without a good program, 15% to 60% of traps can be failed open. Ultrasound section: initial surveys in the petrochemical industry found 34% of traps had failed, mostly open.",
+    "answer": "The documents do not contain enough information to answer this question. The provided text discusses failure rates for ultrasonic analysis survey data on pages 81 and 68 (e.g., 34% failed traps, 15% to 60% expected failures in hard-to-reach places), but it does not list any specific steam trap failure rates within the infrared thermography section found on page 68.",
+    "pages": [
+      80,
+      81,
+      80,
+      68,
+      81
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2589,
+    "output_tokens": 135,
+    "seconds": 36.4,
+    "attempts": 1,
+    "queries": [
+      "steam trap failure rates infrared thermography vs. ultrasonic analysis"
+    ],
+    "assessment_reason": "The context provides specific failure distribution data for steam traps within both the sections discussing Infrared Diagnostics and Ultrasonic Analysis.",
+    "cited_pages": [
+      68,
+      81
+    ],
+    "citations_ok": true,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "M04",
+    "type": "compound",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "Would the annual savings from the compressed air leak case study at the northeast plant cover the cost of a typical ultrasonic scanner?",
+    "expected_answer": "Yes. A typical handheld ultrasonic scanner costs $750 to $10,000, and correcting the leaks saved the plant $13,000 per year (plus avoiding a $50,000 compressor).",
+    "answer": "Yes, the annual savings would cover the cost. The northeast plant saved $13,000 per year from correcting compressed air leaks (page 81). Meanwhile, a typical handheld ultrasonic scanner costs between $750 and $10,000 (page 80). Therefore, even at the highest equipment cost of $10,000, the annual savings exceed the initial investment. Payback periods for such equipment are typically 6 months or less due to large savings opportunities (page 80).",
+    "pages": [
+      81,
+      81,
+      80,
+      79,
+      77
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1237,
+    "output_tokens": 112,
+    "seconds": 20.9,
+    "cited_pages": [
+      80,
+      81
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M04",
+    "type": "compound",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "Would the annual savings from the compressed air leak case study at the northeast plant cover the cost of a typical ultrasonic scanner?",
+    "expected_answer": "Yes. A typical handheld ultrasonic scanner costs $750 to $10,000, and correcting the leaks saved the plant $13,000 per year (plus avoiding a $50,000 compressor).",
+    "answer": "Yes, the annual savings would cover the cost. The northeast plant saved $13,000 per year by repairing air leaks (page 81). A typical handheld scanner costs between $750 and $10,000 (page 80). Even at the maximum equipment cost of $10,000, the annual savings exceed this amount. Therefore, the savings from the case study would easily cover the purchase price of a standard scanner within less than one year.",
+    "pages": [
+      81,
+      81,
+      80,
+      79,
+      77
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2527,
+    "output_tokens": 171,
+    "seconds": 26.2,
+    "attempts": 1,
+    "queries": [
+      "compressed air leak case study annual savings vs ultrasonic scanner cost northeast plant"
+    ],
+    "assessment_reason": "The text provides both the annual savings amount ($13,000) and the typical equipment cost range ($750 to $10,000) needed to make the comparison.",
+    "cited_pages": [
+      80,
+      81
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M05",
+    "type": "compound",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "Which two technologies described in the guide can give an indication of bearing wear, and how?",
+    "expected_answer": "Ultrasound: a 12-50x increase in amplitude at 28-32 kHz gives early indication of bearing deterioration. Infrared thermography: trended IR scans of bearings (hot bearings) indicate wear.",
+    "answer": "Fourier transform (FT)-IR Spectroscopy indicates fluid breakdown products associated with component health by analyzing molecular composition (page 73). Direct Read Ferrography measures the relative amount of ferrous wear metals, where trending changes in wear size and mode can indicate bearing issues (page 73). Additionally, infrared (IR) scans trended over single bearings provide a useful indicator of wear and eventual need for replacement (page 65). The documents do not contain enough information to answer this question.",
+    "pages": [
+      73,
+      64,
+      65,
+      70,
+      91
+    ],
+    "llm_calls": 1,
+    "input_tokens": 859,
+    "output_tokens": 102,
+    "seconds": 16.2,
+    "cited_pages": [
+      65,
+      73
+    ],
+    "citations_ok": true,
+    "verdict": "INCORRECT"
+  },
+  {
+    "id": "M05",
+    "type": "compound",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "Which two technologies described in the guide can give an indication of bearing wear, and how?",
+    "expected_answer": "Ultrasound: a 12-50x increase in amplitude at 28-32 kHz gives early indication of bearing deterioration. Infrared thermography: trended IR scans of bearings (hot bearings) indicate wear.",
+    "answer": "Based on the provided text, Infrared (IR) scanning is one technology that indicates bearing wear; IR scans of single bearings trended over time provide a useful indicator of wear and eventual need for replacement (page 65). Additionally, Direct Read Ferrography can indicate bearing wear by measuring the relative amount of ferrous wear metals of different size present in a lubricant sample, where trending reveals changes in the wear mode requiring action (page 73). The guide notes that IR scans can highlight hot bearings indicating an imbalance or wear problem (page 64), while ferrography analyzes wear particles to evaluate machine condition (page 70). Fourier transform (FT)-IR Spectroscopy measures chemical composition rather than directly quantifying mechanical wear size, and Analytical Ferrography requires a visual exam by an analyst (page 73); however, Direct Read Ferrography is explicitly linked to measuring wear metal amounts. Thus, IR scanning for temperature changes and Direct Read (or Analytical) Ferrography are the two primary methods described for indicating bearing wear.",
+    "pages": [
+      73,
+      70,
+      64,
+      70,
+      65
+    ],
+    "llm_calls": 3,
+    "input_tokens": 1894,
+    "output_tokens": 266,
+    "seconds": 40.7,
+    "attempts": 1,
+    "queries": [
+      "vibration analysis, oil condition monitoring"
+    ],
+    "assessment_reason": "The context explicitly states that trended IR scans of single bearings act as a useful indicator for wear while FT-IR spectroscopy analyzes lubricant composition to detect wear modes.",
+    "cited_pages": [
+      64,
+      65,
+      70,
+      73
+    ],
+    "citations_ok": true,
+    "verdict": "INCORRECT"
+  },
+  {
+    "id": "M06",
+    "type": "compound",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What examples does the guide give of extending oil change intervals by using the actual oil condition instead of a fixed schedule?",
+    "expected_answer": "Any of these examples from the guide: (1) car: instead of changing oil every 3,000-5,000 miles, oil analysis could extend the change to 10,000 miles; (2) a northeast industrial facility gained an average of 0.5 years between oil changes, saving more than $20,000 in consumables in less than 9 months; (3) a major northeast manufacturer switched 400 machines to condition-based oil changes, saving more than $54,000 per year. A correct answer gives at least two of these examples.",
+    "answer": "The guide cites a northeast industrial facility that extended oil change intervals by an average of 0.5 years after switching from a time-based approach to changing oil based on actual conditions (page 75). Additionally, it mentions a major northeast manufacturer that switched from a fixed schedule of changing oil in 400 machines to a condition-based method using in-house oil analysis (page 74). The text also explains that analyzing oil periodically can allow operators to extend the change interval until the vehicle has traveled 10,000 miles rather than on a set interval like 3,000 to 5,000 miles (page 52).",
+    "pages": [
+      75,
+      74,
+      52,
+      52,
+      52
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1032,
+    "output_tokens": 137,
+    "seconds": 22.5,
+    "cited_pages": [
+      52,
+      74,
+      75
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M06",
+    "type": "compound",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What examples does the guide give of extending oil change intervals by using the actual oil condition instead of a fixed schedule?",
+    "expected_answer": "Any of these examples from the guide: (1) car: instead of changing oil every 3,000-5,000 miles, oil analysis could extend the change to 10,000 miles; (2) a northeast industrial facility gained an average of 0.5 years between oil changes, saving more than $20,000 in consumables in less than 9 months; (3) a major northeast manufacturer switched 400 machines to condition-based oil changes, saving more than $54,000 per year. A correct answer gives at least two of these examples.",
+    "answer": "The guide cites an example where a northeast industrial facility gained an average of 0.5 years between oil changes after switching from a time-based approach to changing oil based on actual conditions (page 75). Additionally, a major northeast manufacturer saved over $54,000 annually by moving 400 machines from a fixed schedule to a condition-based method using in-house oil analysis (page 74). Both instances demonstrate extending service intervals by relying on the oil's actual state rather than a predetermined calendar.",
+    "pages": [
+      75,
+      70,
+      74,
+      70,
+      52
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2095,
+    "output_tokens": 146,
+    "seconds": 42.5,
+    "attempts": 1,
+    "queries": [
+      "actual oil analysis"
+    ],
+    "assessment_reason": "The context provides two specific examples of facilities that extended their oil change intervals by switching from time-based to condition-based maintenance approaches.",
+    "cited_pages": [
+      74,
+      75
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M07",
+    "type": "compound",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "How does the cost of a full-function infrared camera compare with a high-end vibration analyzer?",
+    "expected_answer": "A full-function IR camera costs $18,000 to $65,000; a high-end vibration analyzer with software and accessories can exceed $30,000.",
+    "answer": "A full-functionality IR camera costs between $18,000 and $65,000 (page 66), whereas a high-end vibration analyzer with software and accessories can exceed $30,000 (page 86). Therefore, the minimum cost of a full-function camera is approximately equal to the maximum estimated cost of the high-end vibration analyzer, though the high-end vibration analyzer's cost ceiling is lower than the upper range for IR cameras.",
+    "pages": [
+      86,
+      86,
+      66,
+      86,
+      61
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1154,
+    "output_tokens": 99,
+    "seconds": 21.3,
+    "cited_pages": [
+      66,
+      86
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M07",
+    "type": "compound",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "How does the cost of a full-function infrared camera compare with a high-end vibration analyzer?",
+    "expected_answer": "A full-function IR camera costs $18,000 to $65,000; a high-end vibration analyzer with software and accessories can exceed $30,000.",
+    "answer": "According to page 66, a full-function IR imager (camera) costs between $18,000 and $65,000. As stated on page 86, a high-end vibration analyzer with software and accessories can exceed $30,000. Therefore, the cost of an infrared camera generally falls within or slightly above the range of a high-end vibration analyzer. (page 66), (page 86)",
+    "pages": [
+      86,
+      86,
+      66,
+      84,
+      86
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2360,
+    "output_tokens": 167,
+    "seconds": 36.4,
+    "attempts": 1,
+    "queries": [
+      "price comparison full-function infrared camera vs high-end vibration analyzer"
+    ],
+    "assessment_reason": "The context provides specific price ranges for both the full-function IR camera ($18,000 to $65,000) and the high-end vibration analyzer (exceeding $30,000).",
+    "cited_pages": [
+      66,
+      86
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M08",
+    "type": "compound",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "Was the payback of the EMSL recommissioning project at PNNL consistent with typical recommissioning paybacks reported in the guide?",
+    "expected_answer": "Yes. EMSL invested about $125,000 and saved $173,735 per year (payback well under 1 year); typical recommissioning paybacks are usually under 2 years and often under 0.5 year.",
+    "answer": "No, the payback of the EMSL recommissioning project was not consistent with the range cited for other federal buildings but was faster than the average for continuous commissioning programs. The EMSL project achieved a simple payback of \"well less than 1 year\" (page 104). This differs from the analysis by Bregerson which reported paybacks ranging from less than 2 years up to 8.5 years for various building types, and the FEMP guidebook which reports an average simple payback period of 0.7 year (page 105). While the EMSL energy savings were described as being on the \"high-end\" relative to other reported benefits (page 105), its specific payback duration falls outside the explicit ranges given for general retrocommissioning efforts in the text.",
+    "pages": [
+      104,
+      104,
+      104,
+      105,
+      105
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1237,
+    "output_tokens": 170,
+    "seconds": 29.3,
+    "cited_pages": [
+      104,
+      105
+    ],
+    "citations_ok": true,
+    "verdict": "INCORRECT"
+  },
+  {
+    "id": "M08",
+    "type": "compound",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "Was the payback of the EMSL recommissioning project at PNNL consistent with typical recommissioning paybacks reported in the guide?",
+    "expected_answer": "Yes. EMSL invested about $125,000 and saved $173,735 per year (payback well under 1 year); typical recommissioning paybacks are usually under 2 years and often under 0.5 year.",
+    "answer": "Yes, the payback of the EMSL project was consistent with or better than typical reports. The EMSL project achieved a simple payback of well less than 1 year (page 104), whereas the guide states that typical simple payback periods are usually less than 2 years and very frequently less than 0.5 years (pages 99, 105).",
+    "pages": [
+      104,
+      105,
+      104,
+      104,
+      99
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2527,
+    "output_tokens": 141,
+    "seconds": 42.9,
+    "attempts": 1,
+    "queries": [
+      "EMSL recommissioning project payback vs typical guide values"
+    ],
+    "assessment_reason": "The context provides both the specific payback period for the EMSL project (less than 1 year) and the typical range for such projects (usually less than 2 years).",
+    "cited_pages": [
+      99,
+      104,
+      105
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M09",
+    "type": "compound",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What payback periods does the guide give for infrared thermography equipment and for high-end vibration analysis equipment?",
+    "expected_answer": "Infrared: on average 12 months or less. High-end vibration equipment: a typical industrial site can recover the cost within 2 years.",
+    "answer": "The guide states that an average facility can expect a payback for infrared thermography within 12 months or less (page 67). For high-end vibration analysis equipment, a typical industrial site is expected to recover the investment within 2 years (page 86).",
+    "pages": [
+      67,
+      67,
+      86,
+      86,
+      60
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1116,
+    "output_tokens": 57,
+    "seconds": 18.2,
+    "cited_pages": [
+      67,
+      86
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "M09",
+    "type": "compound",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What payback periods does the guide give for infrared thermography equipment and for high-end vibration analysis equipment?",
+    "expected_answer": "Infrared: on average 12 months or less. High-end vibration equipment: a typical industrial site can recover the cost within 2 years.",
+    "answer": "The guide states that on average, a facility can expect a payback of 12 months or less for infrared thermography (pages 67). For high-end vibration analysis equipment, a typical industrial site can expect to recover the investment within 2 years (page 86). These figures are noted to vary depending on the type of facility and its specific use.",
+    "pages": [
+      67,
+      67,
+      86,
+      86,
+      60
+    ],
+    "llm_calls": 3,
+    "input_tokens": 2281,
+    "output_tokens": 144,
+    "seconds": 28.6,
+    "attempts": 1,
+    "queries": [
+      "infrared thermography equipment payback period vs high-end vibration analysis equipment payback period maintenance guide"
+    ],
+    "assessment_reason": "The context explicitly states that facilities can expect a payback of 12 months or less for infrared thermography and that high-end vibration analyzer investment costs are recovered within 2 years.",
+    "cited_pages": [
+      67,
+      86
+    ],
+    "citations_ok": true,
+    "verdict": "CORRECT"
+  },
+  {
+    "id": "U01",
+    "type": "unanswerable",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "How often should boiler tubes be inspected?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question. While the text mentions that changes in stack temperature may indicate tube scaling requiring cleaning (page 91) and suggests using IR scans for maintenance assessments (page 65), it does not specify the required frequency or schedule for inspecting boiler tubes.",
+    "pages": [
+      93,
+      81,
+      65,
+      93,
+      91
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1139,
+    "output_tokens": 63,
+    "seconds": 18.8,
+    "cited_pages": [
+      65,
+      91
+    ],
+    "citations_ok": true,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U01",
+    "type": "unanswerable",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "How often should boiler tubes be inspected?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question.",
+    "pages": [
+      93,
+      65,
+      81,
+      63,
+      93
+    ],
+    "llm_calls": 4,
+    "input_tokens": 2384,
+    "output_tokens": 82,
+    "seconds": 37.0,
+    "attempts": 2,
+    "queries": [
+      "boiler tube inspection frequency standard",
+      "boiler tube inspection interval standards regulations"
+    ],
+    "assessment_reason": "The context lists tube inspection as a category of task but does not specify the required frequency.",
+    "cited_pages": [],
+    "citations_ok": null,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U02",
+    "type": "unanswerable",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "How much does Level I thermography training cost?",
+    "expected_answer": "REFUSE",
+    "answer": "The provided documents do not contain enough information to answer this question. While page 67 mentions that \"Level I thermographic training\" is a recommended equipment need and discusses general payback periods or contractor costs, the specific price for obtaining Level I training certification is not listed in the text.",
+    "pages": [
+      67,
+      66,
+      86,
+      60,
+      67
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1160,
+    "output_tokens": 59,
+    "seconds": 19.0,
+    "cited_pages": [
+      67
+    ],
+    "citations_ok": true,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U02",
+    "type": "unanswerable",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "How much does Level I thermography training cost?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question.",
+    "pages": [
+      67,
+      66,
+      86,
+      67,
+      60
+    ],
+    "llm_calls": 4,
+    "input_tokens": 2437,
+    "output_tokens": 73,
+    "seconds": 23.6,
+    "attempts": 2,
+    "queries": [
+      "Level I thermography training costs",
+      "thermographic imaging technician certification fees"
+    ],
+    "assessment_reason": "The context lists Level I training as a recommended need but does not state its specific price.",
+    "cited_pages": [],
+    "citations_ok": null,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U03",
+    "type": "unanswerable",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What is the purchase price of motor analysis equipment?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question. While page 89 states that motor analysis equipment \"remains fairly expensive\" and pages 88\u201389 discuss the costs of contracted services (ranging from $600 to $1,200 per day), no specific purchase price or monetary cost for buying the physical equipment itself is listed in the provided text.",
+    "pages": [
+      89,
+      88,
+      80,
+      89,
+      88
+    ],
+    "llm_calls": 1,
+    "input_tokens": 958,
+    "output_tokens": 81,
+    "seconds": 19.2,
+    "cited_pages": [
+      88,
+      89
+    ],
+    "citations_ok": true,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U03",
+    "type": "unanswerable",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What is the purchase price of motor analysis equipment?",
+    "expected_answer": "REFUSE",
+    "answer": "The provided documents do not state a specific purchase price for general motor analysis equipment. Page 89 notes that \"motor analysis equipment remains fairly expensive\" (page 89), while page 6.6.4 mentions that contract services cost $600 to $1,200 per day. In contrast, page 80 specifies a price range of $750 to $10,000 only for ultrasonic analysis equipment, which is distinct from motor current signature analysis or winding insulation testing mentioned elsewhere. Therefore, the exact purchase price for standard motor analysis equipment is not available in the text. The documents do not contain enough information to answer this question regarding a specific purchase price.",
+    "pages": [
+      89,
+      88,
+      89,
+      80,
+      88
+    ],
+    "llm_calls": 3,
+    "input_tokens": 1954,
+    "output_tokens": 212,
+    "seconds": 40.7,
+    "attempts": 1,
+    "queries": [
+      "motor analysis equipment purchase price cost"
+    ],
+    "assessment_reason": "The context explicitly states that typical costs for ultrasonic analysis (a type of motor analysis) range from $750 to $10,000 and mentions that general motor analysis equipment remains fairly expensive without providing a specific single price.",
+    "cited_pages": [
+      6,
+      80,
+      89
+    ],
+    "citations_ok": false,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U04",
+    "type": "unanswerable",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "At what fixed time interval should HVAC air filters be replaced?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not specify a fixed time interval for replacing HVAC air filters; instead, they advocate replacing them based on logged and trended differential pressure data to determine when replacement is required (page 91). This approach allows the system to generate work orders automatically when limits are reached rather than changing filters at pre-defined intervals (page 47). The overarching philosophy presented is to schedule maintenance activities only when mechanical or operational conditions warrant it, rather than on a strict schedule (page 56).",
+    "pages": [
+      91,
+      47,
+      56,
+      98,
+      75
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1081,
+    "output_tokens": 101,
+    "seconds": 22.0,
+    "cited_pages": [
+      47,
+      56,
+      91
+    ],
+    "citations_ok": true,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U04",
+    "type": "unanswerable",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "At what fixed time interval should HVAC air filters be replaced?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question.",
+    "pages": [
+      91,
+      47,
+      56,
+      75,
+      98
+    ],
+    "llm_calls": 4,
+    "input_tokens": 2288,
+    "output_tokens": 92,
+    "seconds": 32.3,
+    "attempts": 2,
+    "queries": [
+      "HVAC air filter replacement schedule guidelines",
+      "Optimal HVAC air filter replacement frequency based on differential pressure monitoring"
+    ],
+    "assessment_reason": "The context states that filters should be changed based on need rather than a pre-defined interval, so it does not specify any time intervals.",
+    "cited_pages": [],
+    "citations_ok": null,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U05",
+    "type": "unanswerable",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "How often should a facility survey its steam traps?",
+    "expected_answer": "REFUSE",
+    "answer": "The provided documents do not contain enough information to answer this question. While the text discusses the existence of periodic steam trap monitoring programs and specific findings from surveys on pages 81 and 68, it does not specify a required frequency or interval for these surveys (e.g., annually or quarterly).",
+    "pages": [
+      81,
+      81,
+      68,
+      80,
+      66
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1281,
+    "output_tokens": 61,
+    "seconds": 20.6,
+    "cited_pages": [
+      68,
+      81
+    ],
+    "citations_ok": true,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U05",
+    "type": "unanswerable",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "How often should a facility survey its steam traps?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question.",
+    "pages": [
+      81,
+      68,
+      81,
+      80,
+      66
+    ],
+    "llm_calls": 4,
+    "input_tokens": 2758,
+    "output_tokens": 87,
+    "seconds": 42.6,
+    "attempts": 2,
+    "queries": [
+      "steam trap survey frequency industrial facilities",
+      "What is the recommended inspection interval for steam traps in industrial facilities?"
+    ],
+    "assessment_reason": "The context mentions periodic monitoring and specific findings but does not define the recommended frequency for these surveys.",
+    "cited_pages": [],
+    "citations_ok": null,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U06",
+    "type": "unanswerable",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What is the typical lifespan of a flat roof membrane?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question. The provided text discusses roof thermography, repair costs, and replacement timelines for specific facilities (e.g., one over 22 years old) but does not state a general or typical lifespan for a flat roof membrane.",
+    "pages": [
+      66,
+      68,
+      105,
+      68,
+      105
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1172,
+    "output_tokens": 57,
+    "seconds": 19.1,
+    "cited_pages": [],
+    "citations_ok": null,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U06",
+    "type": "unanswerable",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What is the typical lifespan of a flat roof membrane?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question.",
+    "pages": [
+      66,
+      68,
+      105,
+      37,
+      68
+    ],
+    "llm_calls": 4,
+    "input_tokens": 2404,
+    "output_tokens": 93,
+    "seconds": 39.3,
+    "attempts": 2,
+    "queries": [
+      "typical lifespan flat roof membrane systems",
+      "average service life flat roof membrane warranties"
+    ],
+    "assessment_reason": "The context mentions the age of a specific facility's roof (over 22 years) but does not state the typical lifespan for flat roof membranes in general.",
+    "cited_pages": [],
+    "citations_ok": null,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U07",
+    "type": "unanswerable",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What percentage of electric motor failures are caused by bearing problems?",
+    "expected_answer": "REFUSE",
+    "answer": "The provided documents do not contain enough information to answer this question. While the text discusses cases where bearings failed and states that IR scans can highlight hot bearings indicating imbalance or wear (page 64) or thrust bearing overload leading to failure (page 67), it never specifies a percentage of motor failures attributable to bearing problems.",
+    "pages": [
+      67,
+      74,
+      88,
+      64,
+      63
+    ],
+    "llm_calls": 1,
+    "input_tokens": 944,
+    "output_tokens": 67,
+    "seconds": 17.7,
+    "cited_pages": [
+      64,
+      67
+    ],
+    "citations_ok": true,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U07",
+    "type": "unanswerable",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What percentage of electric motor failures are caused by bearing problems?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question.",
+    "pages": [
+      67,
+      74,
+      88,
+      64,
+      63
+    ],
+    "llm_calls": 4,
+    "input_tokens": 2174,
+    "output_tokens": 102,
+    "seconds": 31.5,
+    "attempts": 2,
+    "queries": [
+      "electric motor bearing failure statistics percentage",
+      "What percent of electric motor failures are caused by bearing issues?"
+    ],
+    "assessment_reason": "The context mentions that IR scans can highlight motors with hot bearings indicating imbalance or wear, but it does not provide specific statistics or percentages on the total number of causes for electric motor failures.",
+    "cited_pages": [],
+    "citations_ok": null,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U08",
+    "type": "unanswerable",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "Which CMMS software product does the guide recommend?",
+    "expected_answer": "REFUSE",
+    "answer": "The provided documents do not contain enough information to answer this question. While the text lists various benefits and capabilities of a generic CMMS (page 45-47) and mentions avoiding improper vendor selection (page 46), it does not name or recommend any specific software product.",
+    "pages": [
+      45,
+      46,
+      47,
+      46,
+      45
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1018,
+    "output_tokens": 59,
+    "seconds": 18.0,
+    "cited_pages": [
+      45,
+      46,
+      47
+    ],
+    "citations_ok": true,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U08",
+    "type": "unanswerable",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "Which CMMS software product does the guide recommend?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question.",
+    "pages": [
+      45,
+      46,
+      47,
+      46,
+      45
+    ],
+    "llm_calls": 4,
+    "input_tokens": 2146,
+    "output_tokens": 87,
+    "seconds": 36.7,
+    "attempts": 2,
+    "queries": [
+      "CMMS comparison",
+      "\"CMMS recommended software products in guide\""
+    ],
+    "assessment_reason": "The context discusses general features and needs for a computerized maintenance management system but does not name or recommend any specific software product.",
+    "cited_pages": [],
+    "citations_ok": null,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U09",
+    "type": "unanswerable",
+    "system": "baseline",
+    "provider": "ollama",
+    "question": "What maximum refrigerant leak rate is acceptable for chillers?",
+    "expected_answer": "REFUSE",
+    "answer": "The provided documents do not contain enough information to answer this question. While the text discusses chiller upgrades, maintenance responsibilities in ESPC projects, and heat exchanger performance monitoring (pages 40, 61, 81, 91, 98), it does not specify any acceptable limits or maximum leak rates for refrigerants.",
+    "pages": [
+      81,
+      61,
+      98,
+      91,
+      40
+    ],
+    "llm_calls": 1,
+    "input_tokens": 1118,
+    "output_tokens": 72,
+    "seconds": 19.4,
+    "cited_pages": [
+      40,
+      61,
+      81,
+      91,
+      98
+    ],
+    "citations_ok": true,
+    "verdict": "REFUSED"
+  },
+  {
+    "id": "U09",
+    "type": "unanswerable",
+    "system": "agentic",
+    "provider": "ollama",
+    "question": "What maximum refrigerant leak rate is acceptable for chillers?",
+    "expected_answer": "REFUSE",
+    "answer": "The documents do not contain enough information to answer this question.",
+    "pages": [
+      81,
+      61,
+      93,
+      98,
+      79
+    ],
+    "llm_calls": 4,
+    "input_tokens": 2432,
+    "output_tokens": 99,
+    "seconds": 44.0,
+    "attempts": 2,
+    "queries": [
+      "maximum Refrigerant Recovery and Recycling Rate for chillers",
+      "Maximum allowable refrigerant leak rate for chillers"
+    ],
+    "assessment_reason": "The provided text discusses steam trap monitoring and ultrasonic detection for various mechanical issues but does not mention chiller refrigerant leak rates or their acceptance limits.",
+    "cited_pages": [],
+    "citations_ok": null,
+    "verdict": "REFUSED"
+  }
+]
